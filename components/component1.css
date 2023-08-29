@@ -1,0 +1,28 @@
+.component1-container {
+  flex: 1;
+  width: 542px;
+  height: 635px;
+  display: flex;
+  opacity: 0.8;
+  position: relative;
+  max-width: 450px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-white);
+}
+.component1-container:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 767px) {
+  .component1-container {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
